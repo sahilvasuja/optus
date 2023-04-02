@@ -27,8 +27,7 @@ left: 76px;
 top: 88px;
 
 }
-.optus{
-}
+
 .optuslogo{
     width: 150px;
     height: 57px;
@@ -70,6 +69,7 @@ line-height: 61px;
 
 color: #222222;
 }
+
 .text{
     position: absolute;
 width: 554px;
@@ -89,10 +89,16 @@ text-align: center;
 color: #7E7E7E;
 
 }
-.girlimage{
-    width: 418px;
-height: 419px;
 
+.girlimage{
+   
+/* position: relative; */
+height: 419px;
+width: 418px;
+left: 68px;
+top: 330px;
+
+border-radius: 0px;
 
 /* Inside auto layout */
 
@@ -102,6 +108,7 @@ flex-grow: 0;
 }
 .girllogo{
     position: absolute;
+    margin-top: 200px;
 width: 414px;
 height: 277px;
 left: 2px;
@@ -109,28 +116,15 @@ top: 71px;
 }
 .slider{
      background: #EEF5FF;
+     gap: 8px;
+     order: 3;
+    
 }
-.swiper-pagination-bullet {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 8px;
-    width: 118px;
-    height: 13px;
-    flex: none;
-    order: 3;
-    flex-grow: 0;
-}
-.swiper-pagination-bullet {
-  
-width: 34px;
+.swiper-pagination-bullet.another-class {
+    width: 13px;
 height: 13px;
-
-/* Primary */
-
-background: #6206B7;
-border-radius: 14px;
+background-color: green;
+/* background: #D9D9D9; */
 
 /* Inside auto layout */
 
@@ -138,3 +132,26 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
+ /* .swiper-pagination-bullet {
+  
+width: 34px;
+height: 13px;
+
+
+
+background: #6206B7;
+border-radius: 14px;
+
+
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}  */
+.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+    border-radius: 50%;
+  }
+  

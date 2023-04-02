@@ -1,11 +1,11 @@
-.my-custom-class {
+/* .my-custom-class {
     position: relative;
 width: 1440px;
 height: 1024px;
 background: #FFFFFF;  
   }
 .my-custom-div {
-    /* display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0px;
@@ -15,7 +15,7 @@ background: #FFFFFF;
     width: 554px;
     height: 812px;
     left: 76px;
-    top: 88px; */
+    top: 88px;
     position: absolute;
 width: 706px;
 height: 966px;
@@ -40,7 +40,7 @@ width: 554px;
 height: 173px;
 
 
-/* Inside auto layout */
+Inside auto layout
 
 flex: none;
 order: 1;
@@ -52,4 +52,4 @@ height: 419px;
 flex: none;
 order: 2;
 flex-grow: 0;
-}
+} */
