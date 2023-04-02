@@ -1,91 +1,63 @@
+"use client"
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from './page.module.css'
-
+// import Slider from './component/slider'
+import main from './main.module.css'
+import React, { useState } from "react";
+import Carousel from '@/app/component/carousal';
 const inter = Inter({ subsets: ['latin'] })
-
+import { Written } from '@/lib/written'
+import Slider from './component/Slider';
+import { Exp } from './component/exp';
+import { Optushomes } from './component/optushomes';
 export default function Home() {
+  const [carouselIndex, setCarouselIndex] = useState(0);
+
+  const handleCarouselChange = (index:any) => {
+    setCarouselIndex(index);
+  };
+
+  
+
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
+   <>
+   {/* <div className='w-full h-screen bg-white relative'>
+    <p className='text-black'>hlo</p>
+      <div className="w-706 h-966 left-33 top-29 bg-black absolute border-red-500  border-2 ">
+        <Slider />
+        <Optushomes />
       </div>
+    </div> */}
+    {/* <div className="w-full h-screen bg-white relative">
+  <div className=" absolute  transform  w-706 h-966 bg-black border-2 border-red-500">
+  <div className='flex flex-col items-center absolute p-0 w-554 h-812 top-88 left-76 bg-blue-300 border-4 boder-green-300'>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-        <div className={styles.thirteen}>
-          <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
-        </div>
+    <Optushomes />
+    <div>
+      <p>
+        hlo
+      </p>
+      <p>hey</p>
+    </div>
+  </div>
+    <Slider />
+  </div>
+</div> */}
+
+
+{/* <div className={main.outer}> */}
+  <div className={main.inner}>
+    <div className={main.content}>
+      <div>
+      <Optushomes />
       </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+      <Slider />
+    </div>
+  </div>
+{/* </div> */}
+{/* <Slider /> */}
+          </>
+   
   )
 }
