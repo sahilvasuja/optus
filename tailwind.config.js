@@ -1,10 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 
-const optus = require("./tailwind.optus");
-const head = require("./tailwind.head");
-const text = require("./tailwind.text");
-const footer = require("./tailwind.footer");
-const foot = require("./tailwind.foot");
 
 // const customComponents = require("/custom.css");
 module.exports = {

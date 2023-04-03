@@ -10,6 +10,7 @@ import { Written } from '@/lib/written'
 import Slider from './component/Slider';
 import { Exp } from './component/exp';
 import { Optushomes } from './component/optushomes';
+// import { styles } from './style'
 export default function Home() {
  
   return (

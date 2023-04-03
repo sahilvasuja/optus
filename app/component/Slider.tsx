@@ -40,14 +40,27 @@ export default function App() {
     
   return (
     <>
-         {/* <style>
+         <style>
         {`
-          .swiper-pagination-bullet {
-            width: 10px;
-            height: 10px;
+            .swiper-pagination-bullet{
+              width: 13px;
+              height: 13px;
+              background: #D9D9D9;
+              flex: none;
+              order: 3;
+            }
+          .swiper-pagination-bullet-active {
+            width: 34px;
+            height: 13px;
+            background: #6206B7;
+            border-radius: 14px;
+            flex: none;
+            order: 2;
+            flex-grow: 0;
+           
           }
         `}
-      </style> */}
+      </style>
    
       <Swiper
     
@@ -59,10 +72,7 @@ export default function App() {
         }}
         pagination={{
             clickable: true,
-            // bulletClass: `${main['swiper-pagination-bullet']} ${main['another-class']}`,
-            // bulletClass:`${main['another-class']}`
-            // bulletClass: [main['swiper-pagination-bullet'], main['another-class']].join('')
-        }}
+           }}
         navigation={false
             
         }

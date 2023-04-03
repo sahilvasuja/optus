@@ -1,4 +1,4 @@
-.outer{
+ .outer{
     position: relative;
 width: 1440px;
 height: 1024px;
@@ -35,18 +35,14 @@ top: 88px;
     order: 0;
     flex-grow: 0;
 
-/* position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%; */
+
 }
 .div{
     width: 554px;
 height: 173px;
 
 
-/* Inside auto layout */
+
 
 flex: none;
 order: 1;
@@ -64,7 +60,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 52px;
 line-height: 61px;
-/* identical to box height */
+
 
 
 color: #222222;
@@ -82,7 +78,6 @@ font-style: normal;
 font-weight: 400;
 font-size: 22px;
 line-height: 32px;
-/* or 145% */
 
 text-align: center;
 
@@ -91,27 +86,23 @@ color: #7E7E7E;
 }
 
 .girlimage{
-   
-/* position: relative; */
+
 height: 419px;
 width: 418px;
 left: 68px;
 top: 330px;
-
 border-radius: 0px;
-
-/* Inside auto layout */
-
 flex: none;
 order: 2;
 flex-grow: 0;
 }
 .girllogo{
-    position: absolute;
-    margin-top: 200px;
+    position: absolute; 
+    margin-top: 200px; 
+  
 width: 414px;
 height: 277px;
-left: 2px;
+left: 2px; 
 top: 71px;
 }
 .slider{
@@ -120,18 +111,17 @@ top: 71px;
      order: 3;
     
 }
-.swiper-pagination-bullet.another-class {
+/* .swiper-pagination-bullet.another-class {
     width: 13px;
 height: 13px;
 background-color: green;
-/* background: #D9D9D9; */
 
-/* Inside auto layout */
+
 
 flex: none;
 order: 0;
 flex-grow: 0;
-}
+}  */
  /* .swiper-pagination-bullet {
   
 width: 34px;
@@ -148,10 +138,10 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }  */
-.swiper-pagination-bullet {
+/* .swiper-pagination-bullet {
     width: 10px;
     height: 10px;
     background-color: gray;
     border-radius: 50%;
-  }
-  
+  } */
+ 

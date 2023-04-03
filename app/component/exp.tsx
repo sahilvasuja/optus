@@ -1,29 +1,8 @@
-// import Image from 'next/image';
-// import React from 'react'
-// import Layer from '../../public/Layer.png';
-// import Credit from '../../public/Credit.png';
 
-// export const Exp = () => {
-//   return (
-//     <>
-//     <div className='justify-between flex flex-col '>
-//    <Image src={Layer} alt={''} >
-//    </Image>
-//     <div>
-//         <h2>
-//         Go Paperless
-//         </h2>
-//         <p>Have your voice heard! Fill in surveys in the app so we can improve our quality of service and get your thoughts</p>
-//     </div>
-//     <Image src={Credit} alt={''} />
-//     </div>
-
-//     </>
-//   )
-// }
 import Image from 'next/image';
 import React from 'react';
 import Credit from '../../public/Credit.png';
+import { styles } from '../style';
 import { Optushomes } from './optushomes';
 import main from '.././main.module.css'
 type Slide = {
@@ -67,7 +46,7 @@ export const Exp = ({ slide }: Props) => {
   return (
     
     <>
-       {/* {Data.map((item, index) => ( */}
+     
         <>
         <div  className={main.div}>
           <div className={main.heading}>{slide.paragraph}</div>  
@@ -78,16 +57,7 @@ export const Exp = ({ slide }: Props) => {
             height={419} className={main.girllogo} />
         </div>
         </>
-      {/* ))}  */}
-    {/* <div className={main.div}>
-        <div className={main.heading}>Pay your rent at Ease</div>  
-        <p className={main.text}>
-        With your rent balance available at your fingertips, monitoring and making 
-        payments can be done in app with ease at the simple tap of a button.</p>
-    </div>
-    <div className={main.girlimage}>
-      <Image src={Credit} alt="" className={main.girllogo}/>
-    </div> */}
+     
     </>    
   );
 };
