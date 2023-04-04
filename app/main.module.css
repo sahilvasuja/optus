@@ -1,32 +1,34 @@
- 
-.outer{
-    position: absolute;
-    overflow: hidden;
-width: 706px;
-height: 966px;
-/* left: 33px;
+ .outer {
+     /* position: absolute;
+    overflow: hidden; */
+     /* width: 706px;
+     height: 966px; */
+     /* left: 33px;
 top: 29px; */
-background: #EEF5FF;
-}
-.inner{
-    display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px;
-gap: 50px;
+     background: #EEF5FF;
+     height: 100vh
+ }
 
-position: absolute;
-width: 554px;
-height: 812px;
-left: 76px;
-top: 88px;
+ .inner {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
 
-}
+     /* gap: 50px; */
 
-.optuslogo{
-    width: 150px;
-    height: 57px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
+     /* position: absolute; */
+     /* width: 554px;
+     height: 812px; */
+     /* left: 76px;
+     top: 88px; */
+
+ }
+
+ .optuslogo {
+     width: 150px;
+     height: 57px;
+     flex: none;
+     order: 0;
+     flex-grow: 0;
+ }
