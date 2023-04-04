@@ -5,10 +5,10 @@ import Image from "next/image";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import "../styles.css";
+import "./styles.css";
 import { Autoplay,Pagination,  Navigation } from "swiper";
-import { Exp } from "./exp";
-import main from ".././main.module.css"
+import { Exp } from "../sliderdata/data";
+import main from './main.module.css'
 const Data = [
   {
     paragraph: 'Pay your rent at Ease',
@@ -36,7 +36,7 @@ const Data = [
       image: "/document.png"
     },
 ];
-export default function App() {
+export  const Carousal=()=> {
     
   return (
     <>
