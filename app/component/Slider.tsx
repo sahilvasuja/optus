@@ -45,7 +45,7 @@ export default function App() {
             .swiper-pagination-bullet{
               width: 13px;
               height: 13px;
-              background: #D9D9D9;
+              background: gray;
               flex: none;
               order: 3;
             }
