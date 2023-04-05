@@ -1,15 +1,17 @@
 .sliderdata {
-
+    /* border: 1px solid black; */
+    gap:10px;
     /* width: 554px; */
     height: 173px;
     flex: none;
     order: 1;
     flex-grow: 0;
+   
 }
 
 .heading {
+    width: 470px;
     /* position: absolute;
-    width: 490px;
     height: 61px;
     left: 32px;
     top: 0px; */
@@ -23,9 +25,10 @@
 }
 
 .text {
-    /* position: absolute;
-    width: 554px;
-    height: 96px;
+    position: absolute;
+    /* height: 96px; */
+    width: 470px;
+    /*
     left: 0px;
     top: 77px; */
     font-family: 'Roboto';
@@ -38,25 +41,29 @@
 }
 
 .girldiv {
-
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    /* border: 1px solid black; */
+    /* height: 419px;
+    width: 418px; */
     /* position: absolute;
-    height: 419px;
-    width: 418px;
     left: 68px;
     top: 330px; */
-    /* border-radius: 0px;
+    border-radius: 0px;
     flex: none;
     order: 2;
-    flex-grow: 0; */
+    flex-grow: 0;
 }
 
 .girllogo {
-    /* width: 414px;
-    height: 277px; */
+    /* border: 1px solid black; */
+    padding-top: 21px;
+    padding-bottom: 21px;
+    width: 414px;
+    height: 277px;
     /* left: 2px;
     top: 71px; */
 }

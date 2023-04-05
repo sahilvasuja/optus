@@ -16,19 +16,19 @@ type Props = {
 export const Exp = ({ slide }: Props) => {
   return (
     <div>
-      <div className={main.sliderdata}>
-        <div className={main.heading}>{slide.paragraph}</div>
-        <p className={main.text}>{slide.text}</p>
-      </div>
-      <div className={main.girldiv}>
-        <Image
-          src={slide.image}
-          alt={slide.paragraph}
-          width={418}
-          height={419}
-          className={main.girllogo}
-        />
-      </div>
+        <div className={main.sliderdata}>
+            <div className={main.heading}>{slide.paragraph}</div>
+            <p className={main.text}>{slide.text}</p>
+        </div>
+        <div className={main.girldiv}>
+            <Image
+            src={slide.image}
+            alt={slide.paragraph}
+            width={418}
+            height={419}
+            className={main.girllogo}
+            />
+        </div>
     </div>
   );
 };

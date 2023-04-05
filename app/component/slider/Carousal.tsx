@@ -40,13 +40,15 @@ export const Carousal = () => {
   return (
     <>
       <style>
-        {/* {`
+        {`
+       
             .swiper-pagination-bullet{
               width: 13px;
               height: 13px;
               background: gray;
               flex: none;
               order: 3;
+             
             }
           .swiper-pagination-bullet-active {
             width: 34px;
@@ -58,16 +60,18 @@ export const Carousal = () => {
             flex-grow: 0;
            
           }
-        `} */}
+        `}
       </style>
 
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
+
         autoplay={{
           delay: 1500000,
           disableOnInteraction: false,
         }}
+       
         pagination={{
           clickable: true,
         }}
