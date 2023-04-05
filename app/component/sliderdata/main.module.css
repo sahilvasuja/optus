@@ -46,9 +46,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid black; */
-    /* height: 419px;
-    width: 418px; */
+    
+    height: 419px;
+    width: 418px;
     /* position: absolute;
     left: 68px;
     top: 330px; */
@@ -59,11 +59,12 @@
 }
 
 .girllogo {
+    /* object-fit: scale-down; */
     /* border: 1px solid black; */
     padding-top: 21px;
     padding-bottom: 21px;
-    width: 414px;
-    height: 277px;
+    /* width: 414px;
+    height: 277px; */
     /* left: 2px;
     top: 71px; */
 }

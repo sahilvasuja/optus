@@ -41,7 +41,9 @@ export const Carousal = () => {
     <>
       <style>
         {`
-       
+            .swiper-pagination-current{
+                padding-top:300px;
+            }
             .swiper-pagination-bullet{
               width: 13px;
               height: 13px;
@@ -68,7 +70,7 @@ export const Carousal = () => {
         centeredSlides={true}
 
         autoplay={{
-          delay: 1500000,
+          delay: 1500,
           disableOnInteraction: false,
         }}
        

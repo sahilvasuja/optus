@@ -19,12 +19,14 @@
   .swiper {
     width: 100%;
     height: 100%;
+   
   }
   
   .swiper-slide {
-    /* text-align: center; */
-    /* font-size: 40px; */
+    text-align: center;
+    font-size: 40px;
     background: white;
+   
   
     /* Center slide text vertically */
     display: flex;
@@ -33,6 +35,7 @@
   }
   
   .swiper-slide img {
+   
     display: block;
     /* width: 100%;
     height: 100%; */
